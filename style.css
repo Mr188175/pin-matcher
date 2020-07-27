@@ -15,7 +15,7 @@ body {
     padding: 30px;
     text-align: center;
 }
-#generate-btn{
+.generate-btn{
     margin-top: 140px;
     width: 180px;
     padding: 50px;
@@ -35,13 +35,23 @@ body {
 input[type='text']{
     background-color: #3D4153;
     padding: 10px 0px;
-    color: #ffffff;
     width: 80%;
     margin: 0 auto;
     border: 2px solid #858299;
     height: 50px;
     padding: 10px;
+    color:#ffffff;
+    text-align: center;
+    font-size: 40px;
+   
 }
+
+#confirmationPinShow{
+    width:310px;
+    text-align:center;
+    
+}
+
 input[type='text']:focus {
     background-color: #3D4153;
     color: #fff;
@@ -67,7 +77,7 @@ width: 20%;
 background: #425062;
 color: #fff;
 padding: 20px 0;
-margin: 5px;
+margin: 5px 5px 5px 0px ;
 display: inline-block;
 font-size: 25px;
 text-align: center;
@@ -82,6 +92,7 @@ color: #E0B612;
 .submit-btn {
     border: none;
     margin-top: 20px;
+    width:300px;
     padding: 10px 120px;
     border-radius: 5px;
     background: #495BC3;
@@ -97,7 +108,6 @@ color: #E0B612;
     padding: 5px 20px;
 }
 .notify-section{
-    display: none;
     width: 35%;
     margin: 0 auto;
 }
@@ -105,3 +115,13 @@ color: #E0B612;
     color: #FF3C5F;
     margin-top: 10px;
 }
+
+
+#matchAlert{
+    display:none;
+}
+#mismatchAlert{
+    display:none;
+}
+
+
